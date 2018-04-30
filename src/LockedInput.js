@@ -13,7 +13,7 @@ class InputField extends React.Component {
   render () {
     return (
       <div className="inputDiv">
-        <p>Mark checkbox to write in text field</p>  
+        <p>Mark checkbox to write in text field</p>
         <input type="checkbox" onChange={this.handleChange}/>
         <input type="text" disabled={this.state.disabled}/>
        </div>
