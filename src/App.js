@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import Login from './Login.js';
 import InputField from './LockedInput.js';
+import NextLetter from './NextLetter.js';
 
 class App extends Component {
   render() {
@@ -15,6 +16,9 @@ class App extends Component {
         </header>
         <main>
           < Tabs />
+          <Login/>
+          <InputField/>
+          <NextLetter/>
         </main>
       </div>
     );
