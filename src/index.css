@@ -3,3 +3,23 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+#tabMenu{
+  background-color: gray;
+  width: 500px;
+  height: 300px;
+}
+
+#tab1,#tab2,#tab3{
+  height: 100px;
+  width:33.33333%;
+  background-color: blue;
+  color: white;
+  font-size:18px;
+}
+
+.tab:hover{
+  cursor: pointer;
+  background-color: green;
+  font-size: 20px;
+}
