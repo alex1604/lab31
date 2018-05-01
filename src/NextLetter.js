@@ -10,7 +10,7 @@ class NextLetter extends React.Component {
     this.state = { value: '', number: 1, original: '' };
   }
   newNumber(event) {
-    if (event.target.value == null || event.target.value == undefined || event.target.value == 0) {
+    if (event.target.value === null || event.target.value === undefined || event.target.value === 0) {
       this.setState({ number: 1 });
     } else {
       this.setState({ number: Number(event.target.value) })
@@ -24,7 +24,7 @@ class NextLetter extends React.Component {
     this.setState({original: originalText})
     let x = event.charCode;
     let xz;
-    if (this.state.number == 1) {
+    if (this.state.number === 1) {
       if (x === 122) { xz = 97 } //maybe good to add ternery operator here
       else if (x === 90) { xz = 65 }
     } else {
