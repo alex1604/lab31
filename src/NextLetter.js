@@ -44,9 +44,9 @@ class NextLetter extends React.Component {
     return (
       <div id="nextletterDiv">
         <p>CAESAR CIPHER YOUR TEXT</p>
-        <label for="#caesarnumber">Enter distance factor for complementary characters:</label>
+        <label>Enter distance factor for complementary characters:</label>
         <input id="caesarnumber" type="number" onChange={this.newNumber} />
-        <label for="#caesar">Type here for ciphering:</label>
+        <label>Type here for ciphering:</label>
         <textarea id="caesar" value={this.state.value} onKeyDown={this.checkDelete} onKeyPress={this.checkInput} /> <button id="clearBtn" onClick={this.clear}>Clear</button>
         <p>Original text: {this.state.original}</p>
       </div>
