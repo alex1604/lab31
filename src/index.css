@@ -6,16 +6,29 @@ body {
 
 #tabMenu{
   background-color: gray;
-  width: 500px;
-  height: 300px;
+  width: 70%;
+  height: 600px;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 5% 15%;
+}
+
+#nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 50px;
+  width: 100%;
 }
 
 #tab1,#tab2,#tab3{
-  height: 100px;
-  width:33.33333%;
   background-color: blue;
   color: white;
   font-size:18px;
+  height: 100%;
+  width: 100%;
 }
 
 .tab:hover{
