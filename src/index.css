@@ -3,3 +3,70 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+#tabMenu{
+  width: 70%;
+  height: 400px;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 5% 15%;
+  border-radius: 5px;
+  background-color: rgb(167, 165, 165);
+}
+
+#content{
+  background-color: rgb(196, 192, 192);
+  box-shadow: 2px 2px darkslategrey;
+  height: 100%;
+  width: 100%;
+  padding-top: 5%;
+}
+
+#nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 2px solid white;
+}
+
+#tab1,#tab2,#tab3{
+  background-color: rgb(103, 103, 201);
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size:20px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius:10px;
+}
+#tab1,#tab2{
+  margin-right:2px;
+}
+
+#tab1:hover,#tab2:hover,#tab3:hover{
+  cursor: pointer;
+  background-color: rgb(103, 103, 201);
+  color: rgb(195, 219, 149);
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size:20px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius:10px;
+}
+
