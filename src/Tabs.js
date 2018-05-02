@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import Login from './Login.js'
-import InputField from './LockedInput.js'
-import NextLetter from './NextLetter.js'
 
 class Tabs extends Component {
   /*constructor(props) {
