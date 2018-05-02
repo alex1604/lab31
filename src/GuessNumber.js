@@ -33,7 +33,6 @@ class Game extends React.Component{
   }
   compareNumber(event){ //function for compare guess and counting how many guesses
    console.log('value is', Number(this.state.value));
-   console.log('secretnumber is', this.state.secretNumber)
 
      if(Number(this.state.value) === Number(this.state.secretNumber)){
      this.setState({msg: <div><strong>This is correct!</strong> You guessed  {this.state.howManyGuess} times</div>});
