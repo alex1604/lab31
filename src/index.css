@@ -6,7 +6,8 @@ body {
 
 #tabMenu{
   width: 70%;
-  height: 400px;
+  min-height: 400px;
+  height:auto;
   display:flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -18,9 +19,17 @@ body {
 #content{
   background-color: rgb(196, 192, 192);
   box-shadow: 2px 2px darkslategrey;
-  height: 100%;
+  min-height: 400px;
+  height:auto;
   width: 100%;
-  padding-top: 5%;
+  padding-top: 2%;
+}
+
+#nextletterDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #nav{
@@ -70,3 +79,35 @@ body {
   border-top-left-radius:10px;
 }
 
+#clearBtn{
+  height: 39px;
+  width: 120px;
+  border-radius: 10px;
+  background-color: rgb(245, 13, 13);
+  font-family: 'Verdana', sans-serif;
+  font-size:18px;
+  color: white;
+  box-sizing:border-box;
+  margin:2% 0;
+}
+#clearBtn:hover{
+  border:2px dashed rgb(41, 40, 40);
+  cursor: pointer;
+  box-sizing: border-box;
+}
+#caesar{
+  min-height: 200px;
+  width: 80%;
+  font-size:25px;
+  text-align:center;
+  box-sizing: border-box;
+  margin-top:15px;
+}
+
+#caesarnumber{
+  width: 20%;
+  font-size:25px;
+  text-align:center;
+  box-sizing: border-box;
+  margin:15px 0;
+}
